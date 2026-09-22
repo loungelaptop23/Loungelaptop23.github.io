@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laptop Lounge | Laptop Repair & Sales</title>
+<meta name="description" content="Laptop Lounge - professional laptop repair, sales, accessories, skins and gaming accessories.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#0a0d12;color:#f5f7fa;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(10,13,18,.94);backdrop-filter:blur(12px);border-bottom:1px solid #202630}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:24px;font-weight:800;letter-spacing:.4px}.logo span{color:#4da3ff}
+nav{display:flex;gap:25px;font-size:14px;color:#cbd2dc}
+nav a:hover{color:#fff}
+.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:700;border:1px solid #2c8cff;background:#2c8cff;color:#fff}
+.btn.secondary{background:transparent;border-color:#394250}
+.hero{padding:90px 0 75px;background:radial-gradient(circle at 75% 25%,#12345c 0,transparent 32%),linear-gradient(180deg,#0b111a,#0a0d12)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}
+.badge{display:inline-block;padding:7px 12px;border:1px solid #28557e;background:#10243a;color:#83c5ff;border-radius:999px;font-size:13px;margin-bottom:18px}
+h1{font-size:clamp(42px,6vw,70px);line-height:1.03;margin-bottom:20px}
+h1 span{color:#4da3ff}
+.hero p{font-size:18px;color:#b7c0cc;max-width:650px;margin-bottom:28px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{min-height:330px;border:1px solid #27313e;border-radius:22px;background:linear-gradient(145deg,#131a24,#0e131a);display:flex;align-items:center;justify-content:center;box-shadow:0 25px 70px rgba(0,0,0,.35)}
+.laptop{font-size:105px}
+section{padding:78px 0}
+.section-title{text-align:center;margin-bottom:42px}
+.section-title h2{font-size:36px;margin-bottom:8px}.section-title p{color:#9fa9b7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{padding:25px;border:1px solid #242d38;border-radius:17px;background:#10151d}
+.icon{font-size:30px;margin-bottom:12px}.card h3{margin-bottom:7px}.card p{color:#9fa9b7;font-size:14px}
+.dark{background:#0d1219}
+.brands{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.brand{padding:11px 18px;border:1px solid #303946;border-radius:999px;color:#dce3eb;background:#111720}
+.cta{background:linear-gradient(120deg,#102b48,#101821);border:1px solid #234b70;border-radius:24px;padding:48px;text-align:center}
+.cta h2{font-size:35px;margin-bottom:10px}.cta p{color:#b7c0cc;margin-bottom:22px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-box{padding:28px;border:1px solid #27313e;border-radius:17px;background:#10151d}
+.contact-box p{color:#aeb7c4;margin:9px 0}
+footer{padding:28px 0;border-top:1px solid #202630;color:#8f99a7;text-align:center;font-size:13px}
+.float{position:fixed;right:18px;bottom:18px;background:#19b85a;color:#fff;padding:14px 18px;border-radius:999px;font-weight:800;box-shadow:0 10px 25px rgba(0,0,0,.35);z-index:30}
+@media(max-width:800px){nav{display:none}.hero-grid,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.hero{padding-top:65px}.hero-card{min-height:230px}}
+@media(max-width:520px){.cards{grid-template-columns:1fr}section{padding:58px 0}.cta{padding:32px 20px}.hero-card{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">Laptop <span>Lounge</span></a>
+    <nav>
+      <a href="#services">Services</a><a href="#sales">Laptops</a><a href="#accessories">Accessories</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Get in Touch</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">REPAIR • SALES • ACCESSORIES</div>
+      <h1>Your Laptop.<br><span>Our Expertise.</span></h1>
+      <p>Professional laptop repair and sales, laptop accessories, skins, body parts and gaming accessories — all under one roof.</p>
+      <div class="actions">
+        <a class="btn" href="#contact">Book a Repair</a>
+        <a class="btn secondary" href="#sales">Explore Laptops</a>
+      </div>
+    </div>
+    <div class="hero-card"><div class="laptop">💻</div></div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="section-title"><h2>What We Do</h2><p>Reliable solutions for work, study and gaming.</p></div>
+    <div class="cards">
+      <div class="card"><div class="icon">🔧</div><h3>Laptop Repair</h3><p>Diagnosis, software issues, hardware replacement, upgrades and general laptop servicing.</p></div>
+      <div class="card"><div class="icon">💻</div><h3>Laptop Sales</h3><p>Choose from business, student, premium and gaming laptops across popular brands.</p></div>
+      <div class="card"><div class="icon">⚡</div><h3>Upgrades</h3><p>SSD, RAM and other compatible upgrades to improve speed and everyday performance.</p></div>
+      <div class="card"><div class="icon">🎨</div><h3>Skins & Colouring</h3><p>Give your laptop a fresh look with laptop skins and colouring options.</p></div>
+      <div class="card"><div class="icon">🧩</div><h3>Body Parts</h3><p>Laptop body parts and replacement components based on model availability.</p></div>
+      <div class="card"><div class="icon">🎮</div><h3>Gaming Accessories</h3><p>Keyboards, mice and gaming accessories for your setup.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="sales" class="dark">
+  <div class="container">
+    <div class="section-title"><h2>Laptop Brands</h2><p>Ask us about available new and pre-owned models.</p></div>
+    <div class="brands">
+      <span class="brand">Dell</span><span class="brand">HP</span><span class="brand">Lenovo</span><span class="brand">ASUS</span><span class="brand">MSI</span><span class="brand">Apple</span><span class="brand">Avita</span><span class="brand">Gaming Laptops</span>
+    </div>
+  </div>
+</section>
+
+<section id="accessories">
+  <div class="container">
+    <div class="section-title"><h2>Accessories</h2><p>Complete your laptop setup.</p></div>
+    <div class="cards">
+      <div class="card"><div class="icon">⌨️</div><h3>Keyboard</h3><p>Keyboard options and replacements for compatible laptops and setups.</p></div>
+      <div class="card"><div class="icon">🖱️</div><h3>Mouse</h3><p>Everyday and gaming mouse options.</p></div>
+      <div class="card"><div class="icon">🎮</div><h3>Gaming Gear</h3><p>Gaming accessories for a better desk setup.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta">
+      <h2>Need a Laptop Repaired?</h2>
+      <p>Tell us your laptop model and the issue. We'll help you with the next step.</p>
+      <a class="btn" href="#contact">Contact Laptop Lounge</a>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="container">
+    <div class="section-title"><h2>Customer Reviews</h2><p>We value every customer's experience at Laptop Lounge.</p></div>
+    <div class="cards">
+      <div class="card"><div class="icon">⭐</div><h3>Google Reviews</h3><p>See what customers are saying about our repair, sales and accessories service.</p><br><a class="btn secondary" target="_blank" href="https://www.google.com/search?q=Laptop+Lounge+Tilak+Road+Pune">View on Google</a></div>
+      <div class="card"><div class="icon">📸</div><h3>Instagram</h3><p>Follow Laptop Lounge for latest laptops, accessories, offers and updates.</p><br><a class="btn secondary" target="_blank" href="https://www.instagram.com/laptoplounge91/">Follow @laptoplounge91</a></div>
+      <div class="card"><div class="icon">💬</div><h3>Quick Enquiry</h3><p>Send your laptop model and issue on WhatsApp for a quick enquiry.</p><br><a class="btn" target="_blank" href="https://wa.me/919145759248">Message Us</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="dark">
+  <div class="container">
+    <div class="section-title"><h2>Contact Us</h2><p>Visit us, call us or message us on WhatsApp for laptop repair, sales and accessories.</p></div>
+    <div class="contact-grid">
+      <div class="contact-box">
+        <h3>📍 Visit Us</h3>
+        <p><strong>Address:</strong> Ground Floor, Shop No. 02, Pinnacle Pride, Opp. Cosmos Bank, Diagonally Opp. to Durwankur Hotel, Tilak Road, Pune - 411030</p>
+        <p><strong>Hours:</strong> 10:00 AM – 9:00 PM</p>
+        <p><a class="btn secondary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Laptop+Lounge%2C+Tilak+Road%2C+Pune+411030">📍 Open in Google Maps</a></p>
+      </div>
+      <div class="contact-box">
+        <h3>📞 Get in Touch</h3>
+        <p><strong>Phone:</strong> 9145759248</p>
+        <p><strong>WhatsApp:</strong> 9145759248</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/laptoplounge91/" target="_blank">@laptoplounge91</a></p>
+        <p><a class="btn" href="https://wa.me/919145759248" target="_blank">💬 Chat on WhatsApp</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="float" href="https://wa.me/919145759248">💬 WhatsApp</a>
+<footer>© 2026 Laptop Lounge. Laptop Repair • Sales • Accessories</footer>
+</body>
+</html>
